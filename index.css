@@ -1,0 +1,73 @@
+.navebar{
+    background-color: rgb(157, 118, 168);
+    
+    display: flex;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(238, 238, 76);
+    height: 70px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 550px;
+    list-style-type: none;
+
+
+}
+.brand{
+    display: flex;
+    margin-left: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.button{
+    font-size: 30px;
+    background: linear-gradient(to left,rgb(128, 43, 43),rgb(23, 86, 146),rgb(98, 190, 98));
+    border-radius: 10px;
+    height: 50px;
+
+}
+
+body{
+    background: linear-gradient( to right, rgb(109, 79, 79),rgb(104, 104, 148),rgb(91, 124, 91));
+}
+
+    .main {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      animation: moveAndColor 5s infinite linear;
+    }
+
+    @keyframes moveAndColor {
+      0% {
+        top: 0%;
+        background-color: #e74c3c; /* Red */
+      }
+      25% {
+        background-color: #f39c12; /* Orange */
+      }
+      50% {
+        top: 50%;
+        background-color: #2ecc71; /* Green */
+      }
+      75% {
+        background-color: #9b59b6; /* Purple */
+      }
+      100% {
+        top: 100%;
+        background-color: #3498db; /* Blue */
+      }
+    }
+  
+
+
+
